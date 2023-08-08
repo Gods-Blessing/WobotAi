@@ -1,0 +1,58 @@
+.main-info-container{
+    padding: 1rem 2rem;
+}
+
+.recipe-name{
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.reci-image{
+    width: 40%;
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
+
+.image-info{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.image-info>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info-about-recipe{
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+.info-steps{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.ingredients-list{
+    flex: 2;
+}
+
+.ingredients-list>li, .steps-list>li{
+    margin: 1rem 0rem;
+}
+
+.steps-list{
+    flex: 2;
+    list-style: none;
+}
+
+.ing-title{
+    font-weight: 600;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+}
