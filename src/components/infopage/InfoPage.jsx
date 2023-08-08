@@ -17,7 +17,7 @@ export default function InfoPage(){
     }
 
     useEffect(()=>{
-        // fetchById(param.id);
+        fetchById(param.id);
     }, [])
     return(
         <section className='main-info-container'>
