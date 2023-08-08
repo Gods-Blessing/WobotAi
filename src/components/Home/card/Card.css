@@ -1,0 +1,51 @@
+.card-link{
+    text-decoration: none;
+    color: black;
+}
+
+.card-container{
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(20, 20, 20, 0.5);
+    padding: 1rem;
+    border-radius: 1rem;
+    /* align-items: center; */
+}
+
+/* .card-container:hover{
+    transform: scale(1.2);
+} */
+
+.food-image{
+    border-radius: 1rem;
+    width: 40%;
+    aspect-ratio: 1;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info-container>div>p{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.info-titles{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.info-values{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.price{
+    font-weight: 800;
+    font-size: 1.5rem;
+
+}
