@@ -3,7 +3,7 @@ import './Card.css'
 import {Link} from 'react-router-dom';
 
 export default function  Card({RecipesData}){
-    console.log(RecipesData);
+    
     return(
         <Link className='card-link' to={`/Recipeinfo/${RecipesData.id}`}>
         <div className='card-container'>

@@ -19,7 +19,6 @@ export default function Home(){
         , fetchData);
         let InfoData = await response.json();
         data.extraInfo = InfoData;
-        // console.log(data);
     }
     
     async function fetchingData(){
@@ -27,12 +26,9 @@ export default function Home(){
         , fetchData);
 
         let data =await response.json();
-        console.log(data);
-
         let finalData =await  data.results.map((info)=>{
             fetchById(info);
         })
-        console.log(finalData);
         setRecipes(finalData);
     }
 
